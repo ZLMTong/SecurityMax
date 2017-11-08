@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="系统信息">
+      <UniqueIdentifier>{91534331-c2a2-450c-a492-e4828849f68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE解析">
+      <UniqueIdentifier>{23f884f2-9370-4666-8829-5214a350ad52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理">
+      <UniqueIdentifier>{32034ca0-5db9-42e4-8999-1dc8458876d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="病毒查杀">
+      <UniqueIdentifier>{45847bf4-cc61-422b-a002-18ed182d9d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="应用程序">
+      <UniqueIdentifier>{ddb4f6f4-ad6d-40d6-aece-153612e883a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SecurityMax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityMaxDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyModuleDialog.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProcess.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProcessList.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="MyModuleList.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="MyThreadDialog.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PESectorDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEEditorDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDragListBox.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDragDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PERVAToOffset.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDirctoryTableDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEExportTableDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEImportDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDelayloadDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PERelocationDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="PETLSDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="USEInterface.h">
+      <Filter>应用程序</Filter>
+    </ClInclude>
+    <ClInclude Include="ServeDialog.h">
+      <Filter>应用程序</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearInterface.h">
+      <Filter>垃圾清理</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimization.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="PEResourceDialog.h">
+      <Filter>PE解析</Filter>
+    </ClInclude>
+    <ClInclude Include="RocketDialog.h">
+      <Filter>系统信息</Filter>
+    </ClInclude>
+    <ClInclude Include="KillVirus.h">
+      <Filter>病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>病毒查杀</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SecurityMax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityMaxDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProcess.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="MyModuleDialog.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProcessList.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="MyModuleList.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThreadDialog.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PESectorDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEEditorDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDragListBox.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDragDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PERVAToOffset.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDirctoryTableDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEExportTableDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEImportDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDelayloadDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PERelocationDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="PETLSDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="USEInterface.cpp">
+      <Filter>应用程序</Filter>
+    </ClCompile>
+    <ClCompile Include="ServeDialog.cpp">
+      <Filter>应用程序</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearInterface.cpp">
+      <Filter>垃圾清理</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimization.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="PEResourceDialog.cpp">
+      <Filter>PE解析</Filter>
+    </ClCompile>
+    <ClCompile Include="RocketDialog.cpp">
+      <Filter>系统信息</Filter>
+    </ClCompile>
+    <ClCompile Include="KillVirus.cpp">
+      <Filter>病毒查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>病毒查杀</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SecurityMax.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SecurityMax.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SecurityMax.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sss.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\卢漫瞳\Desktop\(zhaoxi.net).bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
